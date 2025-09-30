@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useState, useEffect } from "react";
 
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 
@@ -11,6 +11,9 @@ type ToasterToast = ToastProps & {
   description?: React.ReactNode;
   action?: ToastActionElement;
 };
+
+// Import React for ReactNode type
+import type * as React from "react";
 
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
@@ -164,9 +167,9 @@ function toast({ ...props }: Toast) {
 }
 
 function useToast() {
-  const [state, setState] = React.useState<State>(memoryState);
+  const [state, setState] = useState<State>(memoryState);
 
-  React.useEffect(() => {
+  useEffect(() => {
     listeners.push(setState);
     return () => {
       const index = listeners.indexOf(setState);
