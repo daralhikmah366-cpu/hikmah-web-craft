@@ -1,26 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { DollarSign, Heart, Home, Users } from "lucide-react";
+import { DollarSign } from "lucide-react";
 
 const Donation = () => {
-  const causes = [
-    {
-      icon: Home,
-      title: "Masjid Maintenance",
-      description: "Supporting the upkeep and maintenance of our Islamic center.",
-    },
-    {
-      icon: Users,
-      title: "Community Programs",
-      description: "Funding educational and social programs for the community.",
-    },
-    {
-      icon: Heart,
-      title: "Charity & Relief",
-      description: "Providing assistance to those in need within our community.",
-    },
-  ];
-
   return (
     <section id="donation" className="py-20 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
@@ -31,23 +12,6 @@ const Donation = () => {
             Your generous donations help us continue serving the Muslim community and spreading the message of Islam.
             Every contribution, no matter the size, makes a meaningful difference.
           </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          {causes.map((cause, index) => {
-            const Icon = cause.icon;
-            return (
-              <Card key={index} className="bg-primary-foreground/10 border-primary-foreground/20">
-                <CardContent className="p-6 text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-secondary mb-4">
-                    <Icon className="h-7 w-7 text-white" />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2">{cause.title}</h3>
-                  <p className="text-sm opacity-80">{cause.description}</p>
-                </CardContent>
-              </Card>
-            );
-          })}
         </div>
 
         <div className="text-center">
@@ -64,7 +28,7 @@ const Donation = () => {
               className="text-lg px-8"
               asChild
             >
-              <a href="https://onlinecheckwriter.com/get-paid-by-form/" target="_blank" rel="noopener noreferrer">
+              <a href="https://enroll.zellepay.com/qr-codes?data=ewogICJhY3Rpb24iIDogInBheW1lbnQiLAogICJ0b2tlbiIgOiAiZGFyYWxoaWttYTM2N0BnbWFpbC5jb20iLAogICJuYW1lIiA6ICJEQVIgQUwtSElLTUEgRk9VTkRBVElPTiIKfQ==" target="_blank" rel="noopener noreferrer">
                 Donate Now
               </a>
             </Button>

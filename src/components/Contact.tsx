@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Card className="hover:shadow-lg transition-shadow">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-6 text-primary">Get in Touch</h3>
@@ -27,8 +27,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
                     <p className="text-muted-foreground">
-                      123 Islamic Center Street<br />
-                      City, State 12345<br />
+                      Dar Al-Hikmah Foundation<br />
+                      2929 Spotted Fawn Dr<br />
+                      Fort Worth, TX 76108<br />
                       United States
                     </p>
                   </div>
@@ -41,9 +42,9 @@ const Contact = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Phone</h4>
-                    <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                      (555) 123-4567
+                    <h4 className="font-semibold mb-1">Phone (Administration Contact)</h4>
+                    <a href="tel:+13473357447" className="text-muted-foreground hover:text-primary transition-colors">
+                      +1 (347) 335-7447
                     </a>
                   </div>
                 </div>
@@ -56,45 +57,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <a href="mailto:info@daralhikmah.org" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@daralhikmah.org
+                    <a href="mailto:admin@daral-hikmah.org" className="text-muted-foreground hover:text-primary transition-colors">
+                      admin@daral-hikmah.org
                     </a>
                   </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:shadow-lg transition-shadow">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-primary">Prayer Times</h3>
-              <div className="space-y-4">
-                <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                  <span className="font-semibold">Fajr</span>
-                  <span className="text-muted-foreground">5:30 AM</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                  <span className="font-semibold">Dhuhr</span>
-                  <span className="text-muted-foreground">1:00 PM</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                  <span className="font-semibold">Asr</span>
-                  <span className="text-muted-foreground">4:30 PM</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                  <span className="font-semibold">Maghrib</span>
-                  <span className="text-muted-foreground">7:00 PM</span>
-                </div>
-                <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                  <span className="font-semibold">Isha</span>
-                  <span className="text-muted-foreground">8:30 PM</span>
-                </div>
-              </div>
-              <div className="mt-6 p-4 bg-primary/5 rounded-lg flex items-start gap-3">
-                <Clock className="h-5 w-5 text-primary mt-0.5" />
-                <p className="text-sm text-muted-foreground">
-                  Prayer times are approximate and may vary. Please check with the masjid for exact timings.
-                </p>
               </div>
             </CardContent>
           </Card>

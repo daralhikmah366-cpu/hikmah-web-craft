@@ -12,7 +12,7 @@ const Hero = () => {
       />
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Welcome to Dar Al-Hikmah Islamic Foundation
+          Dar Al-Hikmah Islamic Foundation
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
           Serving and empowering the Muslim community through faith, knowledge, and compassion
