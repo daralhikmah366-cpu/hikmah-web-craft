@@ -24,7 +24,7 @@ const Hero = () => {
             className="text-lg"
             asChild
           >
-            <a href="https://onlinecheckwriter.com/get-paid-by-form/" target="_blank" rel="noopener noreferrer">
+            <a href="https://enroll.zellepay.com/qr-codes?data=ewogICJhY3Rpb24iIDogInBheW1lbnQiLAogICJ0b2tlbiIgOiAiZGFyYWxoaWttYTM2N0BnbWFpbC5jb20iLAogICJuYW1lIiA6ICJEQVIgQUwtSElLTUEgRk9VTkRBVElPTiIKfQ==" target="_blank" rel="noopener noreferrer">
               Donate Now
             </a>
           </Button>
