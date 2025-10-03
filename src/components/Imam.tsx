@@ -20,38 +20,44 @@ const Imam = () => {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2">Imam Name</h3>
+                  <h3 className="text-2xl font-bold mb-2">Imam Masoud Sharaf Mohammed Al-Ajmi</h3>
                   <p className="text-secondary font-medium mb-4">Lead Imam & Religious Director</p>
                   <p className="text-muted-foreground mb-6">
-                    Our Imam brings years of Islamic scholarship and dedication to serving the Muslim community.
-                    With deep knowledge of Quran, Hadith, and Islamic jurisprudence, he provides spiritual guidance,
-                    leads prayers, and offers counseling to community members.
+                    Our Imam brings extensive Islamic scholarship and dedication to serving the Muslim community worldwide. 
+                    With advanced academic credentials and years of experience, he provides spiritual guidance, leads prayers, 
+                    delivers sermons, and contributes to Islamic education and outreach programs.
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
                       <GraduationCap className="h-5 w-5 text-primary mt-1" />
                       <div>
-                        <h4 className="font-semibold mb-1">Education</h4>
+                        <h4 className="font-semibold mb-1">Academic Qualifications</h4>
                         <p className="text-sm text-muted-foreground">
-                          Advanced degrees in Islamic Studies from renowned Islamic institutions
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <BookOpen className="h-5 w-5 text-primary mt-1" />
-                      <div>
-                        <h4 className="font-semibold mb-1">Expertise</h4>
-                        <p className="text-sm text-muted-foreground">
-                          Quranic exegesis, Hadith studies, Islamic jurisprudence, and spiritual counseling
+                          Ph.D. in Islamic Studies (First-Class Honors) - Al-Isra University, USA<br />
+                          M.A. in Islamic Studies - Al-Isra University, USA<br />
+                          B.A. in Fundamentals of Religion (Hadith) - Al-Azhar University
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Award className="h-5 w-5 text-primary mt-1" />
                       <div>
-                        <h4 className="font-semibold mb-1">Experience</h4>
+                        <h4 className="font-semibold mb-1">Professional Experience</h4>
                         <p className="text-sm text-muted-foreground">
-                          Over 15 years of service to the Muslim community in various capacities
+                          Former Imam & Khateeb at Egyptian Ministry of Endowments (2006-2019)<br />
+                          Islamic outreach and community service in the United States<br />
+                          International speaker at Islamic conferences and lectures
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <BookOpen className="h-5 w-5 text-primary mt-1" />
+                      <div>
+                        <h4 className="font-semibold mb-1">Contributions</h4>
+                        <p className="text-sm text-muted-foreground">
+                          Establishment of educational and dawah programs<br />
+                          Spiritual guidance and counseling for the community<br />
+                          Building bridges between faith and modern society
                         </p>
                       </div>
                     </div>
