@@ -18,7 +18,6 @@ const Imam = () => {
                   <div className="w-48 h-48 rounded-lg bg-primary/10 flex items-center justify-center">
                     <span className="text-6xl font-bold text-primary">IM</span>
                   </div>
-                  </div>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">Imam Masoud Sharaf Mohammed Al-Ajmi</h3>
