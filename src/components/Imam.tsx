@@ -15,12 +15,9 @@ const Imam = () => {
             <CardContent className="p-8">
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-shrink-0">
-                  <div className="w-48 h-48 rounded-lg overflow-hidden bg-primary/10">
-                    <img
-                      src={imaamImage}
-                      alt="Imam Masoud Sharaf Mohammed Al-Ajmi"
-                      className="w-full h-full object-cover"
-                    />
+                  <div className="w-48 h-48 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <span className="text-6xl font-bold text-primary">IM</span>
+                  </div>
                   </div>
                 </div>
                 <div className="flex-1">
