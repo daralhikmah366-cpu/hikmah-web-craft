@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, GraduationCap } from "lucide-react";
+import imaamPhoto from "@/assets/imaam.jpg";
 
 const Imam = () => {
   return (
@@ -15,9 +16,11 @@ const Imam = () => {
             <CardContent className="p-8">
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-shrink-0">
-                  <div className="w-48 h-48 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <span className="text-6xl font-bold text-primary">IM</span>
-                  </div>
+                  <img 
+                    src={imaamPhoto} 
+                    alt="Imam Masoud Sharaf Mohammed Al-Ajmi" 
+                    className="w-48 h-48 rounded-lg object-cover"
+                  />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">Imam Masoud Sharaf Mohammed Al-Ajmi</h3>
