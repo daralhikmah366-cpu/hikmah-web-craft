@@ -24,7 +24,6 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><a href="#about" className="opacity-80 hover:opacity-100 transition-opacity">About Us</a></li>
               <li><a href="#dawah" className="opacity-80 hover:opacity-100 transition-opacity">Dawah Programs</a></li>
-              <li><a href="#events" className="opacity-80 hover:opacity-100 transition-opacity">Events</a></li>
               <li><a href="#contact" className="opacity-80 hover:opacity-100 transition-opacity">Contact</a></li>
             </ul>
           </div>
@@ -33,7 +32,7 @@ const Footer = () => {
             <h4 className="font-semibold text-lg mb-4">Connect With Us</h4>
             <div className="flex gap-4 mb-4">
               <a
-                href="https://facebook.com/daralhikmafoundation"
+                href="https://www.facebook.com/daralhikmafondation/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
@@ -41,7 +40,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="mailto:info@daralhikmah.org"
+                href="mailto:admin@daral-hikmah.org"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               >
                 <Mail className="h-5 w-5" />
