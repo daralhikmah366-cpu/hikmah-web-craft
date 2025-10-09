@@ -9,12 +9,11 @@ const Header = () => {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Board Members", href: "#board" },
     { name: "Dawah", href: "#dawah" },
     { name: "Imam", href: "#imam" },
     { name: "Donation", href: "#donation" },
-    { name: "Events", href: "#events" },
     { name: "Media", href: "#media" },
+    { name: "Gallery", href: "#gallery" },
     { name: "Contact", href: "#contact" },
   ];
 
